@@ -18,31 +18,32 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
-    <!-- Header -->
+    <!-- Header Content-->
     <header>
-      <nav>
-        <a href="./index.html">
-          <img src="./images/logo.jpg" alt="logo" width="115" />
-        </a>
+      <nav class="navbar">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-studio">Studio</span></a
+        >
         <ul>
-          <li><a href="#studio">Studio</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="./index.html" class="navlist">Studio</a></li>
+          <li><a href="" class="navlist">Portfolio</a></li>
+          <li><a href="" class="navlist">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="navbar-address">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="navbar-address-list"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="navbar-address-list"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -50,42 +51,39 @@
     <!-- Main Content -->
     <main>
       <!-- Hero Section -->
-      <section class="hero">
-        <h1>
-          Effective Solutions <br />
-          for Your Business
-        </h1>
-        <button type="button">Order Service</button>
+      <section class="hero-section">
+        <h1 class="hero-section-h1">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-section-button">Order Service</button>
       </section>
 
       <!-- Features Section -->
-      <section>
-        <h2>Features</h2>
+      <section class="features-section">
+        <h2>About</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="features-section-header">Strategy</h3>
+            <p class="features-section-p">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="features-sectiond-header">Punctuality</h3>
+            <p class="features-section-p">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="features-section-header">Diligence</h3>
+            <p class="features-section-p">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="features-section-header">Technologies</h3>
+            <p class="features-section-p">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -94,53 +92,82 @@
       </section>
 
       <!-- Team Section -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="team-section">
+        <h2 class="team-section-header">Our Team</h2>
+        <ul>
+          <li class="team-section-list">
+            <img src="./images/1.jpg" alt="Mark Guerrero" width="264" />
+            <h3 class="team-section-li-header">Mark Guerrero</h3>
+            <p class="team-section-li-p">Product Designer</p>
+          </li>
+          <li class="team-section-list">
+            <img src="./images/2.jpg" alt="Tom Ford" width="264" />
+            <h3 class="team-section-li-header">Tom Ford</h3>
+            <p class="team-section-li-p">Frontend Developer</p>
+          </li>
+          <li class="team-section-list">
+            <img src="./images/3.jpg" alt="Camila Garcia" width="264" />
+            <h3 class="team-section-li-header">Camila Garcia</h3>
+            <p class="team-section-li-p">Marketing</p>
+          </li>
+          <li class="team-section-list">
+            <img src="./images/4.jpg" alt="Daniel Wilson" width="264" />
+            <h3 class="team-section-li-header">Daniel Wilson</h3>
+            <p class="team-section-li-p">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <hr />
+
+      <!-- PORTFOLIO SECTION -->
+
+      <section class="portfolio-section">
+        <h2 class="portfolio-section-header">Our Portfolio</h2>
         <ul>
           <li>
-            <img
-              src="./images/1.jpg"
-              width="264"
-              alt="Mark Guerrero - Product Designer"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <img src="./images/port1.jpg" alt="Banking App" width="360" />
+            <h3 class="portfolio-section-list-header">Banking App</h3>
+            <p class="portfolio-section-list-p">App</p>
+          </li>
+          <li>
+            <img src="./images/port2.jpg" alt="Cashless Payment" width="360" />
+            <h3 class="portfolio-section-list-header">Cashless Payment</h3>
+            <p class="portfolio-section-list-p">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/port3.jpg" alt="Meditation App" width="360" />
+            <h3 class="portfolio-section-list-header">Meditation App</h3>
+            <p class="portfolio-section-list-p">App</p>
+          </li>
+          <li>
+            <img src="./images/port4.jpg" alt="Taxi Service" width="360" />
+            <h3 class="portfolio-section-list-header">Taxi Service</h3>
+            <p class="portfolio-section-list-p">Marketing</p>
           </li>
           <li>
             <img
-              src="./images/2.jpg"
-              width="264"
-              alt="Tom Ford - Frontend Developer"
+              src="./images/port5.jpg"
+              alt="Screen Illustrations"
+              width="360"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="portfolio-section-list-header">Screen Illustrations</h3>
+            <p class="portfolio-section-list-p">Design</p>
           </li>
           <li>
-            <img
-              src="./images/3.jpg"
-              width="264"
-              alt="Camila Garcia - Marketing"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/4.jpg"
-              width="264"
-              alt="Daniel Wilson - UI Designer"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <img src="./images/port6.jpg" alt="Online Courses" width="360" />
+            <h3 class="portfolio-section-list-header">Online Courses</h3>
+            <p class="portfolio-section-list-p">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-      <a href="/index.html">WebStudio</a>
-      <p>
+    <!-- Footer Content-->
+    <footer class="footer">
+      <a href="./index.html" class="footer-a"
+        >Web<span class="footer-studio">Studio</span></a
+      >
+      <p class="footer-p">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
